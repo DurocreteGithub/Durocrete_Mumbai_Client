@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/update_client"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Client KYC" />
+        <item
+            android:id="@+id/update_site"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Site KYC "/>
+
+        <item
+            android:id="@+id/enquiry"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Enquiry" />
+
+        <item
+            android:id="@+id/alerts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Alerts" />
+
+        <item
+            android:id="@+id/bonus_points"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bonus Points" />
+
+        <item
+            android:id="@+id/reports_status"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Report Status" />
+
+        <item
+            android:id="@+id/paytm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="PayTM" />
+    </group>
+
+
+</menu>

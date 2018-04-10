@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Testing_types">
+        <item>Compression test</item>
+        <item>Vibration Test</item>
+        <item>Abc Test</item>
+        <item>XYZ Test</item>
+        <item>Main Test</item>
+
+    </string-array>
+
+
+</resources>

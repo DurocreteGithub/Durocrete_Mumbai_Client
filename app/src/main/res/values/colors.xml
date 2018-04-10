@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#FFA000</color>
+    <color name="ColorPrimaryDark">#FFA000</color>
+    <color name="tabsScrollColor">#000000</color>
+
+    <color name="colorAccent">#F34141</color>
+    <color name="white">#FFF</color>
+
+    <color name="OrangeDark">#FF8000</color>
+    <color name="BlueDark">#2E2EFE</color>
+
+    <color name="GreenCool">#5FB404</color>
+    <color name="RedCool">#F34141</color>
+    <color name="GreenLight">#A5DF00</color>
+    <color name="OrangeLight">#FAAC58</color>
+    <color name="Red2">#FA5858</color>
+    <color name="lightGrey">#D8D8D8</color>
+
+
+
+    <color name="nliveo_gray">#212121</color>
+    <color name="nliveo_divider">#80B6B6B6</color>
+    <color name="nliveo_black_light">#222222</color>
+    <color name="nliveo_transparent">#424242</color>
+
+
+</resources>

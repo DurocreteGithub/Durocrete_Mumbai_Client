@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_margin="10dp"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/product_update_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text="Client name"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                     />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etxClientName"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:maxLength="52"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text="Office Address"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+              />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etxOfficeAddress"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text=" Client Mobile No"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etxMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:maxLength="10"
+                android:inputType="number"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                 />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text="Site Name"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+             />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etxSiteName"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:maxLength="52"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                     />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text="Site Address"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etxsiteAddress"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="*"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.97"
+                    android:text=" Site Mobile No."
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                   />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/sitemobileno"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_border"
+                android:maxLength="10"
+                android:inputType="number"
+                android:paddingLeft="7dp"
+                android:textColor="#0097A7"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnregisternew"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+           android:layout_margin="16dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/login_button_selector"
+            android:text="REGISTER" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxclofficeaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Officwe address"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxclOwnername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Owner Name"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxclEmailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Email id"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxclmobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Mobile No."
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxclpanno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Pan No."
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxcltanno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Tan NO."
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etxcllandline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fonts/OpenSans-Bold.ttf"
+            android:hint="Landline No."
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btnclUpdateclient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="275dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="0.5"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:id="@+id/testname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="0.65"
+                android:text="Kumar Constructions"
+                android:textColor="#18683D"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearmaterialdetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="0.5">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:clickable="true"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="left"
+                    android:text="Make"
+                    android:textColor="#000" />
+
+                <EditText
+                    android:id="@+id/txtmake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:autoLink="web"
+                    android:textColor="#0097A7"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/edit_text_border"
+                    android:clickable="true"
+                    android:gravity="left"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.25"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:clickable="true"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="left"
+                    android:text="Description"
+                    android:textColor="#000" />
+
+                <EditText
+                    android:id="@+id/txtdescript"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:autoLink="web"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#0097A7"
+                    android:background="@drawable/edit_text_border"
+                    android:clickable="true"
+                    android:gravity="left"
+                  />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.25"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:text="Quantity"
+                    android:textColor="#000" />
+
+                <EditText
+                    android:id="@+id/txtquantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:autoLink="web"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#0097A7"
+                    android:background="@drawable/edit_text_border"
+                    android:clickable="true"
+                    android:gravity="left"
+                   />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+

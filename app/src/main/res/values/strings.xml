@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">Client Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Designation">
+        <item>Select Designation</item>
+        <item>Owner</item>
+        <item>Sight In Charge</item>
+        <item>Site Engineer</item>
+
+    </string-array>
+
+
+
+    <string-array name="quantity">
+        <item>Select Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+    </string-array>
+
+
+    <string-array name="grade">
+        <item>Select Grade</item>
+        <item>M5</item>
+        <item>M0.75</item>
+        <item>M10</item>
+        <item>M20</item>
+        <item>M30</item>
+        <item>M37</item>.
+        <item>M37.5</item>
+        <item>M40</item>
+        <item>M50</item>
+        <item>M60</item>
+        <item>M70</item>
+        <item>M80</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="Sample_Type">
+        <item>Select Sample Type</item>
+        <item>Natural Sand</item>
+        <item>Crushed Sand</item>
+        <item>Stone Dust</item>
+        <item>10mm</item>
+        <item>20mm</item>
+        <item>40mm</item>
+        <item>Grit</item>
+    </string-array>
+
+
+    <string-array name="TYPe_OF_Design">
+        <item>Select Type</item>
+        <item>Conventional</item>
+        <item>Pumpable </item>
+        <item>Self Compacting </item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Brick_Type">
+        <item>Select Brick Type</item>
+        <item>Burnt Clay</item>
+        <item>Fly Ash</item>
+    </string-array>
+
+    <string-array name="Solid_Type">
+        <item>Select Solid Type</item>
+        <item>Solid</item>
+        <item>Hollow</item>
+    </string-array>
+
+
+    <string-array name="Tile_Type">
+        <item>Select Tile Type</item>
+        <item>Ceramic</item>
+        <item>chequered</item>
+        <item>mosaic</item>
+    </string-array>
+
+
+    <string-array name="Nature_of_Work">
+        <item>Select Type</item>
+        <item>Column</item>
+        <item>Beam</item>
+        <item>Footing</item>
+        <item>Slab</item>
+    </string-array>
+
+
+    <string-array name="NDT_BY">
+        <item>Select NDT </item>
+        <item>UPV</item>
+        <item>Rebound Hammer</item>
+    </string-array>
+
+    <string-array name="Block_Type">
+        <item>Plain</item>
+        <item>Chamfered</item>
+    </string-array>
+
+    <string-array name="Thickness">
+        <item>Select Thickness</item>
+        <item>50mm</item>
+        <item>60mm</item>
+        <item>8 0mm</item>
+        <item>100mm</item>
+        <item>120mm</item>
+    </string-array>
+
+    <string-array name="Type_Of_Steel">
+        <item>Select Type Of Steel</item>
+        <item>Ribbed</item>
+        <item>Twisted</item>
+        <item>Mild</item>
+    </string-array>
+
+    <string-array name="Diameter">
+        <item>Select Diameter of Material</item>
+        <item>3</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>25</item>
+        <item>32</item>
+        <item>40</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="Steel_grade">
+        <item>Select Grade Of Steel</item>
+        <item>Fe 200</item>
+        <item>Fe 415</item>
+        <item>Fe 415D</item>
+        <item>Fe 500</item>
+        <item>Fe 500D</item>
+        <item>Fe 550</item>
+        <item>Fe 550D</item>
+        <item>Fe 600</item>
+
+    </string-array>
+
+    <string-array name="array_name">
+        <item>Select Option</item>
+        <item>7</item>
+        <item>28</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="no_of_sets">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+
+    <string-array name="retention_period">
+        <item>Select Retention Period </item>
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+
+
+    </string-array>
+
+
+
+</resources>
